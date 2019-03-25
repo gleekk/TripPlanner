@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+<!-- 커넥션풀 정보 설정 -->
+	 <Resource 
+	name="jdbc/itwillbs8"
+	auth="Container"
+	type="javax.sql.DataSource"
+	driverClassName="com.mysql.jdbc.Driver"
+	url="jdbc:mysql://localhost:3306/itwillbs8"
+	username="itwillbs8"
+	password="itwillbs8030909"	
+	/>
+	<ResourceLink type="javax.sql.data.DataSource"
+	name="jdbc/itwillbs8"
+	global="jdbc/itwillbs8"/>
+</Context>
